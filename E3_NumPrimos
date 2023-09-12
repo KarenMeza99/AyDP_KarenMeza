@@ -1,0 +1,19 @@
+#Numeros primos
+x=int(input("Ingrese el inicio del intervalo: "))
+y=int(input("Ingrese el final del intervalo: "))
+
+for p in range (x, y):
+
+    if p > 1:
+        i=0
+        j=2
+
+        while j<p and i==0:
+            res=p % j
+
+            if res==0:
+                i+=1
+            j+=1
+            
+        if i==0:
+            print(p)
