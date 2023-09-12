@@ -1,0 +1,16 @@
+#Factorial de un número
+print("----------Calcula el factorial de un número------------")
+print("  ")
+
+numero=int(input("Introduzca el número para calcular su fatorial: "))
+
+f=1
+cont=1
+
+while (cont<=numero):
+    f=f*cont
+    cont=cont+1
+    
+print("  ")
+print("+++++ Resultado: El factorial de ",numero, " es ",f, "+++++")
+print("  ")
