@@ -1,0 +1,14 @@
+# Busqueda en lista existente
+numeros = [5, 15, 22, 70, 42, 110, 229, 731, 9, 34] 
+
+print("++++++++++  Buscar un elemento de la siguiente lista:  ++++++++++" )
+print("  ")
+print (numeros)
+print("  ")
+
+nbus = int(input("Ingrese el número a buscar: "))
+
+if nbus in numeros:
+    print("El número ingresado si existe en la lista.")
+else: 
+    print ("El número ingresado no existe en la lista.")
